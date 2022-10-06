@@ -1,0 +1,146 @@
+﻿<Window x:Class="WpfApp15.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp15"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/DI.jpg"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <FlowDocumentPageViewer>
+            <FlowDocument>
+                <Paragraph FontWeight="Bold">
+                    Гид по стилям в дизайне интерьера
+                </Paragraph>
+                <Paragraph>
+                    <Italic>Стиль</Italic> — совокупность художественных средств и приемов их использования, характерная для произведений искусства. Стиль в интерьере можно трактовать как единство художественного направления, гармоничное сочетание черт и характерных особенностей создаваемого пространства. Все основные принципы композиции, которые применяются в изобразительном искусстве, также применимы и к созданию интерьера.
+                    
+                    В современном дизайне интерьеров можно насчитать несколько десятков направлений. Ниже приведены некоторые из них.
+                </Paragraph>
+                <List MarkerStyle="Circle">
+                    <ListItem>
+                        <Paragraph>
+                            Неоклассика
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Фьюжен
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Хай-Тек
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Лофт
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            Скандинавский
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <Paragraph>
+                    <Floater Width="200" HorizontalAlignment="Center">
+                        <BlockUIContainer BorderBrush="#FF181616" BorderThickness="2,2,2,2">
+                            <Image Source="Data/NK.png"/>
+                        </BlockUIContainer>
+                    </Floater>
+                    <Bold>Неоклассика</Bold> подходит для основательных и консервативных людей, в этом стиле присутствуют элементы античной архитектуры, некоторая тяжеловесность и солидность. 
+В современном интерьере классический стиль комбинируется с другими стилями, образуя прекрасные вариации.
+
+                </Paragraph>
+                <Paragraph>
+                    <Floater Width="200" HorizontalAlignment="Right">
+                        <BlockUIContainer BorderBrush="#FF181616" BorderThickness="2,2,2,2">
+                            <Image Source="Data/F.png"/>
+                        </BlockUIContainer>
+                    </Floater>
+                    <Bold>Фьюжен</Bold> подойдет современным, подвижным, ярким личностям — тем, кто хочет заявить о себе, о своих пристрастиях и интересах.Фьюжен предполагает смешение стилей и позволяет создавать уникальный и не похожий ни на что интерьер. 
+Этот стиль в интерьерном дизайне на пике моды. Интерьер в стиле фьюжен — символ современной глобализации, смешение классики и абстракционизма, Востока и Запада, чувственности и практичности. Обаяние этого стиля состоит в неограниченном творчестве. 
+Берем за основу классический интерьер и добавляем все, что нам нравится. Отсутствие доскональной проработки деталей, легкая небрежность, богемный шик.
+                </Paragraph>
+                <Paragraph>
+                    <Floater Width="200" HorizontalAlignment="Right">
+                        <BlockUIContainer BorderBrush="#FF181616" BorderThickness="2,2,2,2">
+                            <Image Source="Data/HT.png"/>
+                        </BlockUIContainer>
+                    </Floater>
+                    <Bold>Хай-Тек</Bold> идеально подходит для молодых, целеустремленных, подвижных людей, которые следят за модой, любят технологичные вещи, функциональность пространства.Стиль хай-тек зародился в пору бурного развития технологий и покорения космического пространства. 
+Бунтарский порыв дизайнеров нарушить привычные каноны классического интерьера породил новый стиль, который вот уже несколько десятилетий занимает «топовые» позиции в мире дизайна пространства. Во главе угла — простые линии в создании форм и высокие технологии, эстетика материала и максимальная функциональность.
+                </Paragraph>
+                <Paragraph>
+                    <Floater Width="200" HorizontalAlignment="Right">
+                        <BlockUIContainer BorderBrush="#FF181616" BorderThickness="2,2,2,2">
+                            <Image Source="Data/L.png"/>
+                        </BlockUIContainer>
+                    </Floater>
+                    Стиль <Bold>лофт</Bold>  - для персон, которым нужен простор, много воздуха, свобода движения, идеально подойдет стиль лофт или его последняя интерпретация — индастриал.
+Значение английского слова loft — чердак, комната на верхнем этаже, сам верхний этаж. Обозначать этим словом новый интерьерный стиль начали недавно, хотя сам он зародился еще в первой половине двадцатого века в Нью-Йорке, в заводском районе Манхэттена. 
+Помещения неработающих цехов и мастерских стали снимать под студии небогатые художники, музыканты, артисты.
+Сейчас жилье в стиле лофт считается исключительно элитным и уже не по карману бедным родоначальникам этого стиля.
+                </Paragraph>
+                <Paragraph>
+                    <Floater Width="200" HorizontalAlignment="Right">
+                        <BlockUIContainer BorderBrush="#FF181616" BorderThickness="2,2,2,2">
+                            <Image Source="Data/S.png"/>
+                        </BlockUIContainer>
+                    </Floater>
+                    <Bold>Скандинавский</Bold> стиль идеально подойдет тем, кто ценит тепло и уют, защищенность личного пространства. В этом стиле нашли идеальное воплощение простота, индивидуальность и экологичность.
+Для тех, кто ценит тепло и уют, защищенность, найдет в скандинавском стиле идеальное воплощение понятий простоты, индивидуальности и экологичности.
+Если ваш выбор — дизайн интерьера в скандинавском стиле, будьте готовы к ровным спокойным линиям и формам без сильных искривлений или прерывистости. В формах выражается философское отношение к жизни — она должна быть спокойной, без ненужных перегрузок и вселять уверенность в надежности завтрашнего дня
+                </Paragraph>
+                <Table>
+                    <Table.Columns>
+                        <TableColumn/>
+                        <TableColumn/>
+                    </Table.Columns>
+                    <TableRowGroup>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Автор статьи
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Вера Кипрская
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Источник
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <Hyperlink NavigateUri="https://www.tarkett.ru/ru_RU/node/gid-po-stilyu-i-dizaynu-interera-2884">Ссылка</Hyperlink>
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                </Table>
+            </FlowDocument>
+        </FlowDocumentPageViewer>
+        <StackPanel Orientation="Horizontal" Grid.Row="1" HorizontalAlignment="Center">
+            <Button Content="Поставить Лайк" BorderBrush="#FF45567E" Width="500" FontSize="14" FontWeight="Bold">
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Window>
